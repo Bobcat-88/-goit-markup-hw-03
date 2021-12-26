@@ -94,7 +94,9 @@ img {
   align-items: center;
 }
 /* =================лого================= */
-.logo {
+.logo,
+.logo-blu .adress-logo,
+.adress-logo-blu {
   align-self: center;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -424,7 +426,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.adress > .adress-logo {
+.adress .adress-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
