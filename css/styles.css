@@ -148,14 +148,18 @@ img {
 
 .site-nav {
   display: flex;
+  align-items: center;
   margin-left: 93px;
 }
+
+.list-nav-title > .link {
+  padding: 32px 0 32px 0;
+}
+
 .site-nav .list-nav-title + .list-nav-title {
   margin-left: 50px;
 }
-.list-nav-title {
-  padding: 32px 0 32px 0;
-}
+
 /* =========== контакти =========== */
 .contacts {
   display: flex;
@@ -324,9 +328,6 @@ img {
   color: var(--title-site-color);
 }
 
-.specialization {
-  margin-bottom: 30px;
-}
 /* ===================================================== */
 /* ===================== Портфоліо ===================== */
 /* ===================================================== */
@@ -358,18 +359,22 @@ img {
 .cards-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .cards-item {
   margin-right: 30px;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .cards-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.cards-item:nth-child(n + 7) {
+  margin-bottom: -20px;
 }
 
 .cards-text {
